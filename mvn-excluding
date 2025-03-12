@@ -1,0 +1,13 @@
+<dependencies>
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>5.6.15.Final</version>
+        <exclusions>
+            <exclusion>
+                <groupId>javax.transaction</groupId>
+                <artifactId>javax.transaction-api</artifactId>
+            </exclusion>
+        </exclusions>
+    </dependency>
+</dependencies>
